@@ -49,9 +49,11 @@ h1 h2 h3 h4 h5 h6{
     }
 
 .effect img {
-    opacity: 0.1;
+    opacity: 1;
     transition: 0.3s;
+    -webkit-filter: grayscale(100%);
 }
 .effect img:hover{
     opacity: 1;
+    -webkit-filter: grayscale(0%)
     }

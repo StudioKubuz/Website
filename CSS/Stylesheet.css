@@ -12,14 +12,3 @@ h1 h2 h3 h4 h5 h6{font-family:'Noto Sans HK', sans-serif;}
 @media screen and (max-width:600px){.column{-ms-flex:100%;flex:100%;max-width:100%;}
 }
 
-
-.imgStyle {
-}
-.imgStyle:hover:after{
-    transform:  scale(0.9);
-}
-.imgStyle:hover:before{
-    filter: blur(2px);
-}
-
-

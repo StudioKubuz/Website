@@ -73,14 +73,7 @@
 
     <div class="col-xl-8 offset-xl-2 py-5">
 
-      <h1>Contact form Tutorial from
-        <a href="http://bootstrapious.com">Bootstrapious.com</a>
-      </h1>
-
-      <p class="lead">This is a demo for our tutorial dedicated to crafting working Bootstrap contact form with PHP and AJAX background.</p>
-
-
-      <form id="contact-form" method="post" action="contact.php" role="form">
+<form id="contact-form" method="post" action="contact.php" role="form">
 
         <div class="messages"></div>
 
@@ -89,15 +82,15 @@
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <label for="form_name">Firstname *</label>
-                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                <label for="form_name">Voornaam *</label>
+                <input id="form_name" type="text" name="name" class="form-control"  required="required" data-error="Firstname is required.">
                 <div class="help-block with-errors"></div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <label for="form_lastname">Lastname *</label>
-                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                <label for="form_lastname">Achternaam *</label>
+                <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Lastname is required.">
                 <div class="help-block with-errors"></div>
               </div>
             </div>
@@ -106,19 +99,19 @@
             <div class="col-md-6">
               <div class="form-group">
                 <label for="form_email">Email *</label>
-                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
                 <div class="help-block with-errors"></div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <label for="form_need">Please specify your need *</label>
+                <label for="form_need">het is *</label>
                 <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
                   <option value=""></option>
-                  <option value="Request quotation">Request quotation</option>
-                  <option value="Request order status">Request order status</option>
-                  <option value="Request copy of an invoice">Request copy of an invoice</option>
-                  <option value="Other">Other</option>
+                  <option value="Niets speciaals">Niets speciaals</option>
+                  <option value="Beetje speciaal, maar niet belangrijk">Beetje speciaal, maar niet belangrijk</option>
+                  <option value="Heel belangrijk, ik verwacht op onmiddellijk antwoord">Heel belangrijk, ik verwacht op onmiddellijk antwoord</option>
+
                 </select>
                 <div class="help-block with-errors"></div>
               </div>
@@ -139,8 +132,7 @@
           <div class="row">
             <div class="col-md-12">
               <p class="text-muted">
-                <strong>*</strong> These fields are required. Contact form template by
-                <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+                <strong>*</strong> These fields are required. .</p>
             </div>
           </div>
         </div>
